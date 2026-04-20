@@ -1,4 +1,4 @@
-# FAST-NUCES Assignment 2 — Responsible & Explainable AI
+# FAST-NUCES Assignment 2 Responsible & Explainable AI
 
 ## Python environment
 
