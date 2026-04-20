@@ -1,4 +1,4 @@
-# FAST-NUCES Assignment 2 Responsible & Explainable AI
+#  Responsible & Explainable AI
 
 ## Python environment
 
@@ -24,13 +24,6 @@ pip uninstall -y tensorflow tensorflow-macos tensorflow-metal keras
 
 Do **not** commit large CSVs or model checkpoints (see `.gitignore`).
 
-## How to reproduce
-
-1. Clone the repository and open the project root in Jupyter, VS Code, or Colab (upload `pipeline.py` and the notebooks).
-2. Run in order: **`part1.ipynb`** → **`part2.ipynb`** → **`part3.ipynb`** → **`part4.ipynb`** → **`part5.ipynb`**.
-   - `part2`–`part5` include bridge cells that reload `artifacts/baseline_distilbert/` after `part1`.
-   - `part5` expects mitigated weights under `artifacts/` (from `part4`) and `artifacts/isotonic_calibrator.joblib` after running the calibration cell.
-3. For course submission, run all cells and save notebooks **with outputs visible**.
 
 ## Repository layout
 
